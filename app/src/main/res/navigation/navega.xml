@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navega"
+    app:startDestination="@id/insertFirebaseFragment">
+
+    <fragment
+        android:id="@+id/insertFirebaseFragment"
+        android:name="com.paudam.examenpaupulido.insertFirebase.InsertFirebaseFragment"
+        android:label="InsertFirebaseFragment" >
+        <action
+            android:id="@+id/action_insertFirebaseFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fetFragment"
+        android:name="com.paudam.examenuf2paupulido.FetFragment"
+        android:label="fragment_fet"
+        tools:layout="@layout/fragment_fet" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.paudam.examenpaupulido.insertFirebase.LoginFragment"
+        android:label="LoginFragment" >
+        <action
+            android:id="@+id/action_loginFragment_to_fetFragment"
+            app:destination="@id/fetFragment" />
+    </fragment>
+</navigation>

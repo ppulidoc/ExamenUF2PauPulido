@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "686165476055",
+    "project_id": "examenuf2paupulido",
+    "storage_bucket": "examenuf2paupulido.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686165476055:android:e44fdd0f18d394f18aa692",
+        "android_client_info": {
+          "package_name": "com.paudam.examenuf2paupulido"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcsFrA36sOUM2OY259BIALjO3V0fk8EMk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
